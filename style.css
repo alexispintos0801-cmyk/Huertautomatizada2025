@@ -1,0 +1,120 @@
+/* Fuente y estilo base */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background: #fdfdfd;
+  color: #333;
+}
+
+/* Encabezado */
+header {
+  background: linear-gradient(135deg, #4CAF50, #2e7d32);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Secciones */
+main {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  color: #2e7d32;
+  border-bottom: 2px solid #4CAF50;
+  padding-bottom: 5px;
+}
+
+/* Tarjetas */
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  flex: 1;
+  min-width: 250px;
+}
+
+.card h3 {
+  color: #388e3c;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.card a:hover {
+  background: #2e7d32;
+}
+
+/* Imágenes */
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+/* Tablas */
+table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Pie de página */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 30px;
+}

@@ -1,0 +1,33 @@
+<html>
+<head>
+     <title>Pagina sencilla</title>
+     <link  rel="stylesheet" type ="text/css" href="estilos.css">
+</head>
+<body>
+     <h1>Pàgina en 10 minutos</h1>
+     <nav>
+         <ul>
+             <li><a href="">Menu</a></li>
+             <li><a href="">Menu</a></li>
+             <li><a href="">Menu</a></li> 
+         </ul>
+     </nav>
+     <div class="contenido">
+        <div class="articulos">
+            <div class="secciones">
+                <div>
+                    <h2>Subtitulos</h2>
+                    <p>
+                     Lorem
+                     safklsñdajfk
+                     fsdakjfldsjalf
+                     jklñsajfkldsñjafkl
+                     sakflñsdjakfldsjaklfñjdsklafjdkslñaj
+                     dsajkflñdsajfkldsjakfljsdañ
+                     </p>
+                </div>
+            </div>
+        </div>
+     </div>
+</body>         
+</html>
